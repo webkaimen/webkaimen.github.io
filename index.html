@@ -1,0 +1,1047 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/images/common/favicon.png">
+  <link rel="icon" href="/images/common/favicon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="web_akai">
+  <meta name="keywords" content="">
+  
+    <meta property="og:type" content="website">
+<meta property="og:title" content="前端阿开">
+<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:site_name" content="前端阿开">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="web_akai">
+<meta name="twitter:card" content="summary_large_image">
+  
+  
+  <title>前端阿开</title>
+
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/css/bootstrap.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_ba1fz6golrf.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+<!-- 自定义样式保持在最底部 -->
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.8.14","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"baidu":"b2ef8b4e438bfbfa9667837d1124fb6c","google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":"A6A3KekcB19LfYQfObiJlDAu-gzGzoHsz","app_key":"h5J0Jt6wCaR3HtH5I0brXmRk","server_url":null,"path":"window.location.pathname","ignore_local":true}},"search_path":"/local-search.xml"};
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+<meta name="generator" content="Hexo 6.0.0"></head>
+
+
+<body>
+  <header style="height: 100vh;">
+    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>前端阿开</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                分类
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/links/">
+                <i class="iconfont icon-link-fill"></i>
+                友链
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/message/">
+                <i class="iconfont icon-medium-fill"></i>
+                留言板
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" target="_self" href="javascript:;" role="button"
+                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="iconfont icon-books"></i>
+                文档
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                
+                  
+                  
+                  
+                  <a class="dropdown-item" target="_blank" rel="noopener" href="https://hexo.fluid-dev.com/">
+                    
+                    主题博客
+                  </a>
+                
+                  
+                  
+                  
+                  <a class="dropdown-item" target="_blank" rel="noopener" href="https://hexo.fluid-dev.com/docs/guide/">
+                    
+                    配置指南
+                  </a>
+                
+                  
+                  
+                  
+                  <a class="dropdown-item" target="_blank" rel="noopener" href="https://hexo.fluid-dev.com/docs/icon/">
+                    
+                    图标用法
+                  </a>
+                
+              </div>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              &nbsp;<i class="iconfont icon-search"></i>&nbsp;
+            </a>
+          </li>
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="banner" id="banner" parallax=true
+         style="background: url('/images/common/default.jpg') no-repeat center center;
+           background-size: cover;">
+      <div class="full-bg-img">
+        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+          <div class="page-header text-center fade-in-up">
+            <span class="h2" id="subtitle" title="上了生活的贼船,就做个快乐的强盗。">
+              
+            </span>
+
+            
+          </div>
+
+          
+            <div class="scroll-down-bar">
+              <i class="iconfont icon-arrowdown"></i>
+            </div>
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+      <div class="container nopadding-x-md">
+        <div class="py-5" id="board"
+          style=margin-top:0>
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-10 m-auto">
+                
+
+
+  <div class="row mx-auto index-card">
+    
+    
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/2022/04/25/article-17/" target="_self">
+          <img src="/images/common/element.jpeg" srcset="/img/loading.gif" lazyload alt="vue + element 检验开始时间与结束时间">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/04/25/article-17/" target="_self">
+          vue + element 检验开始时间与结束时间
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2022/04/25/article-17/" target="_self">
+          
+          好用的开始时间与结束时间比较，结束时间不得大于开始时间并清除结束时间。为了提前规范用户输入数据的正确性，前端要提前判断一些简单的逻辑，引导用户输入合理的数据。
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-04-25 20:50" pubdate>
+              2022-04-25
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-category"></i>
+            
+              <a href="/categories/ElementUI/">ElementUI</a>
+            
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/Vue-js/">#Vue.js</a>
+            
+              <a href="/tags/ElementUI/">#ElementUI</a>
+            
+              <a href="/tags/el-input/">#el-input</a>
+            
+              <a href="/tags/%E8%A1%A8%E5%8D%95%E6%A0%A1%E9%AA%8C/">表单校验</a>
+            
+              <a href="/tags/%E6%A0%A1%E9%AA%8C%E6%97%B6%E9%97%B4/">#校验时间</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/2022/04/25/article-16/" target="_self">
+          <img src="/images/common/element.jpeg" srcset="/img/loading.gif" lazyload alt="ElementUI输入框做手机号校验,必填项不清空">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/04/25/article-16/" target="_self">
+          ElementUI输入框做手机号校验,必填项不清空
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2022/04/25/article-16/" target="_self">
+          
+          今天测试发现手机号可以随便输入文字，让改成只能输入手机号.我改完这个bug发现输入文字确认以后离开输入框，再输入正确的手机号，Element的表单校验却一直是校验不通过
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-04-25 20:17" pubdate>
+              2022-04-25
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-category"></i>
+            
+              <a href="/categories/ElementUI/">ElementUI</a>
+            
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/Vue-js/">#Vue.js</a>
+            
+              <a href="/tags/ElementUI/">#ElementUI</a>
+            
+              <a href="/tags/%E6%A0%A1%E9%AA%8C/">#校验</a>
+            
+              <a href="/tags/el-input/">#el-input</a>
+            
+              <a href="/tags/%E8%A1%A8%E5%8D%95%E6%A0%A1%E9%AA%8C/">表单校验</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/2022/04/16/article-15/" target="_self">
+          <img src="/images/common/apidoc.jpeg" srcset="/img/loading.gif" lazyload alt="使用 apiDoc 为你的Node.js API 生成文档">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/04/16/article-15/" target="_self">
+          使用 apiDoc 为你的Node.js API 生成文档
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2022/04/16/article-15/" target="_self">
+          
+          写完 api 接口，就需要编写 api 文档了，如果一个个手写的话就很麻烦，就得使用 apidoc 只需要通过写注释，就可以快速生成文档了。
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-04-16 10:39" pubdate>
+              2022-04-16
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-category"></i>
+            
+              <a href="/categories/Node-js/">Node.js</a>
+            
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/Node-js/">#Node.js</a>
+            
+              <a href="/tags/apiDoc/">#apiDoc</a>
+            
+              <a href="/tags/API/">#API</a>
+            
+              <a href="/tags/%E7%94%9F%E6%88%90%E6%96%87%E6%A1%A3/">#生成文档</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/2022/04/15/article-14/" target="_self">
+          <img src="/images/common/node.jpeg" srcset="/img/loading.gif" lazyload alt="Express生成的服务器上开发用到的依赖以及修改">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/04/15/article-14/" target="_self">
+          Express生成的服务器上开发用到的依赖以及修改
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2022/04/15/article-14/" target="_self">
+          
+          当我们通过应用生成器工具 &#96;express-generator&#96; 快速创建一个应用之后。我们随意还可以使用此结构或修改它以最好地满足我们的需求。
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-04-15 17:30" pubdate>
+              2022-04-15
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-category"></i>
+            
+              <a href="/categories/Node-js/">Node.js</a>
+            
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/Node-js/">#Node.js</a>
+            
+              <a href="/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/">#服务器</a>
+            
+              <a href="/tags/Express/">#Express</a>
+            
+              <a href="/tags/%E4%BE%9D%E8%B5%96%E5%8C%85/">#依赖包</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/2022/04/15/article-13/" target="_self">
+          <img src="/images/common/node.jpeg" srcset="/img/loading.gif" lazyload alt="Express生成器快速搭建web服务器">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/04/15/article-13/" target="_self">
+          Express生成器快速搭建web服务器
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2022/04/15/article-13/" target="_self">
+          
+          通过应用生成器工具 express-generator 可以快速创建一个应用的骨架。生成器创建的应用程序结构只是构建Express应用程序的众多方法之一，随意使用此结构或修改它以最好地满足你的需求。
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-04-15 17:08" pubdate>
+              2022-04-15
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-category"></i>
+            
+              <a href="/categories/Node-js/">Node.js</a>
+            
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/Node-js/">#Node.js</a>
+            
+              <a href="/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/">#服务器</a>
+            
+              <a href="/tags/Express/">#Express</a>
+            
+              <a href="/tags/%E7%94%9F%E6%88%90%E5%99%A8/">#生成器</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/2022/03/28/article-12/" target="_self">
+          <img src="/images/common/vue.jpeg" srcset="/img/loading.gif" lazyload alt="element-ui表单验证遇到v-if时不生效">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/03/28/article-12/" target="_self">
+          element-ui表单验证遇到v-if时不生效
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2022/03/28/article-12/" target="_self">
+          
+          今天在项目中遇到一个问题，需要 v-if 渲染的 el-form-item 组件使用 prop 设置规则校验时不生效：   发现问题：校验规则不生效el-form-item 组件使用 prop 设置规则校验时不生效 贴个没解决前的 gif 然后我尝试把注册页面改成默认展示,发现该问题不存在 解决办法给该 el-form-item 设置一个 key 即可 12345678910111213141
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-03-28 11:53" pubdate>
+              2022-03-28
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-category"></i>
+            
+              <a href="/categories/Vue-js/">Vue.js</a>
+            
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/Vue-js/">#Vue.js</a>
+            
+              <a href="/tags/ElementUI/">#ElementUI</a>
+            
+              <a href="/tags/v-if/">#v-if</a>
+            
+              <a href="/tags/el-form-item/">#el-form-item</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/2022/03/08/article-11/" target="_self">
+          <img src="/images/common/f375fca6e9f71fcbc190c2a4d8026244.jpeg" srcset="/img/loading.gif" lazyload alt="还不曾去过倒悬山">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/03/08/article-11/" target="_self">
+          还不曾去过倒悬山
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2022/03/08/article-11/" target="_self">
+          
+          这一日，倒悬山多了一位外乡剑仙。 无人知其姓名 山水邸报也未有记载。 只知他两把飞剑惊才绝艳， 一柄红炉，一柄点血。 那外乡剑仙在城头酩酊大醉后独往蛮荒，剑斩王座，潇洒而去 唯有城墙上刻字&quot;来过&quot;    过倒悬山,剑至浩然。
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-03-08 21:58" pubdate>
+              2022-03-08
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-category"></i>
+            
+              <a href="/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/">生活随笔</a>
+            
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E7%BA%A2%E7%82%89%E7%82%B9%E9%9B%AA/">#红炉点雪</a>
+            
+              <a href="/tags/%E5%89%91%E6%9D%A5/">#剑来</a>
+            
+              <a href="/tags/%E7%94%9F%E6%B4%BB/">#生活</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/2022/03/08/article-3/" target="_self">
+          <img src="/images/common/vue.jpeg" srcset="/img/loading.gif" lazyload alt="vue-cli脚手架中引入elementUI框架">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/03/08/article-3/" target="_self">
+          vue-cli脚手架中引入elementUI框架
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2022/03/08/article-3/" target="_self">
+          
+          本文章是在 vue-cli 脚手架中引入 elementUI 的,请先创建一个脚手架再实行以下步骤。 1.下载 elementUI 框架1npm i element-ui -S  2.引入 Element你可以引入整个 Element，或是根据需要仅引入部分组件。我引入的是完整的 Element。按需引入请自行去官网查阅。完整引入在 main.js 中写入以下内容： 123456789101112
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-03-08 16:29" pubdate>
+              2022-03-08
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-category"></i>
+            
+              <a href="/categories/Vue-js/">Vue.js</a>
+            
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E5%89%8D%E7%AB%AF/">#前端</a>
+            
+              <a href="/tags/Vue-js/">#Vue.js</a>
+            
+              <a href="/tags/ElementUI/">#ElementUI</a>
+            
+              <a href="/tags/Vue-cli/">#Vue-cli</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/2022/03/08/article-10/" target="_self">
+          <img src="/images/common/git.jpeg" srcset="/img/loading.gif" lazyload alt="git命令总结">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/03/08/article-10/" target="_self">
+          git命令总结
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2022/03/08/article-10/" target="_self">
+          
+          创建本地仓库 mkdir 创库名字cd 仓库名字 pwd #查看仓库路径 git init #把目录变成 Git 可以管理的仓库 1.创建一个 git 版本库1234mkdir githubcd githubpwd&#x2F;f&#x2F;github  Mkdir 是新建一个文件夹（github）cd 进入 github 目录pwd 命令用于显示当前目录。在我的电脑上，这个仓库位于&#x2F;f&#x2F;gith
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-03-08 16:15" pubdate>
+              2022-03-08
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-category"></i>
+            
+              <a href="/categories/Git/">Git</a>
+            
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/Git/">#Git</a>
+            
+              <a href="/tags/%E5%89%8D%E7%AB%AF/">#前端</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/2022/03/08/article-9/" target="_self">
+          <img src="/images/common/JavaScript.jpeg" srcset="/img/loading.gif" lazyload alt="18个杀手级JavaScript单行代码">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/03/08/article-9/" target="_self">
+          18个杀手级JavaScript单行代码
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2022/03/08/article-9/" target="_self">
+          
+          1、复制到剪贴板使用 navigator.clipboard.writeText 轻松将任何文本复制到剪贴板。 12const copyToClipboard &#x3D; (text) &#x3D;&gt; navigator.clipboard.writeText(text);copyToClipboard(&quot;Hello World&quot;);  2、检查日期是否有效使用以下代码段检查给定日期是否有
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-03-08 15:35" pubdate>
+              2022-03-08
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-category"></i>
+            
+              <a href="/categories/JavaScript/">JavaScript</a>
+            
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E5%89%8D%E7%AB%AF/">#前端</a>
+            
+              <a href="/tags/JavaScript/">#JavaScript</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+
+
+  <nav aria-label="navigation">
+    <span class="pagination" id="pagination">
+      <span class="page-number current">1</span><a class="page-number" href="/page/2/#board">2</a><a class="extend next" rel="next" href="/page/2/#board"><i class="iconfont icon-arrowright"></i></a>
+    </span>
+  </nav>
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v"
+                 for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+
+    
+  </main>
+
+  <footer class="text-center mt-5 py-3">
+  <div class="footer-content">
+     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> <div style="font-size: 0.85rem"> <span id="timeDate">载入天数...</span> <span id="times">载入时分秒...</span> <script src="/js/duration.js"></script> </div> 
+  </div>
+  
+  <div class="statistics">
+    
+    
+
+    
+      
+        <!-- LeanCloud 统计PV -->
+        <span id="leancloud-site-pv-container" style="display: none">
+            总访问量 
+            <span id="leancloud-site-pv"></span>
+             次
+          </span>
+      
+      
+        <!-- LeanCloud 统计UV -->
+        <span id="leancloud-site-uv-container" style="display: none">
+            总访客数 
+            <span id="leancloud-site-uv"></span>
+             人
+          </span>
+      
+
+    
+  </div>
+
+
+  
+  <!-- 备案信息 -->
+  <div class="beian">
+    <span>
+      <a href="http://beian.miit.gov.cn/" target="_blank" rel="nofollow noopener">
+        京ICP证123456号
+      </a>
+    </span>
+    
+      
+        <span>
+          <a
+            href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=12345678"
+            rel="nofollow noopener"
+            class="beian-police"
+            target="_blank"
+          >
+            
+              <span style="visibility: hidden; width: 0">|</span>
+              <img src="/img/police_beian.png" srcset="/img/loading.gif" lazyload alt="police-icon"/>
+            
+            <span>京公网安备12345678号</span>
+          </a>
+        </span>
+      
+    
+  </div>
+
+
+  
+</footer>
+
+
+  <!-- SCRIPTS -->
+  
+  <script  src="https://cdn.jsdelivr.net/npm/nprogress@0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nprogress@0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js" ></script>
+<script  src="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+<!-- Plugins -->
+
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+  
+
+
+
+
+
+
+  <script defer src="/js/leancloud.js" ></script>
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/typed.js@2/lib/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var title = document.getElementById('subtitle').title;
+      
+        typing(title);
+      
+    })(window, document);
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    <!-- Baidu Analytics -->
+    <script defer>
+      var _hmt = _hmt || [];
+      (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?b2ef8b4e438bfbfa9667837d1124fb6c";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+<!-- 主题的启动项 保持在最底部 -->
+<script  src="/js/boot.js" ></script>
+
+
+</body>
+</html>
